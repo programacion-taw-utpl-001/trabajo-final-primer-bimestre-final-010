@@ -13,8 +13,13 @@ Version de los paquetes utilizados
  - Jupyter Notebook -> 4.1.1
  - Pandas -> 0.21.0
  - Bokeh -> 0.12.10
+ 
+Also working with jupyter slider
 ```
 python -m pip install --user jupyter pandas bokeh 
+
+pip install ipywidgets
+jupyter nbextension enable --py widgetsnbextension
 ```
 
 ### Instalacion
